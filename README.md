@@ -14,3 +14,7 @@ The result of the experiments can be seen in the following chart, and full score
 
 
 ![alt text](/images/embeddings.png "Scores vs. Dimension size")
+
+
+# Document Tagging Using Logistic Regression with Gradient Ascent
+For a given set of documents (here a set of words and phrases), logistic regression was used to classify the phrases into the five classes: drug, person, place, movie, and company. In order to learn training weights, gradient ascent was implemented to adjust the weights for each class. In just 17 iterations of gradient ascent, a score of 0.60 was earned on just 1/4 of the total data set provided.
